@@ -1,5 +1,5 @@
 # poems-generator
-__generator poems with lstm__
+__generate poems with lstm__
 - train model  
 _execute `python3.6 train.py` in the terminal to train the lstm model._
 - compose poems  
