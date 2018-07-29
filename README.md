@@ -5,7 +5,7 @@ _execute `python3.6 train.py` in the terminal to train the lstm model._
 - compose poems  
 _run the `generate_poems.py` script in the terminal to compose poems as you like._
 - sample  
-秋风度月寒，风雨日新恩。  
-野泪双云手，碑麻亦立身。  
-霏和浑落即，去火侔南汐。  
-不衣金虎首，艺身洁稷耕。
+秋春未得眠，绣风再宁语。  
+故人无蔡客，他日到路岐。  
+至经无限境，失径赠人光。  
+昨日天相道，纵难滞醉乡。
