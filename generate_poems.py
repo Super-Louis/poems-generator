@@ -42,12 +42,20 @@ def generate_with_head(ini_word):
                                         feed_dict={input: input_data, train_params['initial_state']: last_state})
             pred = random_word(prediction[0])
             word = num2word[str(pred)]
-            print(word)
         # if len(poems) != 32:
         #     return generate_with_head(ini_word)
-    return poems
+    return format_poems(poems)
+
+def format_poems(poems):
+    poem = ''
+    for c in poems:
+        if c != '。':
+            poem += c
+        else:
+            poem += '。\n'
+    return poem
 
 if __name__ == '__main__':
-    print(generate_with_head('春'))
+    print(generate_with_head('超'))
 
 
